@@ -1,0 +1,2032 @@
+{
+    "appName": "QuickTix",
+    "categories": [
+      {
+        "id": 1,
+        "name": "Movies"
+      },
+      {
+        "id": 2,
+        "name": "Events"
+      },
+      {
+        "id":"3",
+        "name":"Trending"
+      }
+    ],
+    "movies": [
+      {
+        "id": "mv001",
+        "title": "The Grand Adventure",
+        "genre": "Action",
+        "duration": 135,
+        "language": "English",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv001_show_1",
+            "cinema": "CineMax Downtown",
+            "date": "2025-05-10",
+            "time": "19:30",
+            "availableSeats": 42,
+            "price": 12.5
+          },
+          {
+            "showId": "mv001_show_2",
+            "cinema": "Starline Cinema",
+            "date": "2025-05-11",
+            "time": "21:00",
+            "availableSeats": 38,
+            "price": 13.0
+          }
+        ]
+      },
+      {
+        "id": "mv002",
+        "title": "Romance in Paris",
+        "genre": "Romance",
+        "duration": 110,
+        "language": "French",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv002_show_1",
+            "cinema": "City Lights Theatre",
+            "date": "2025-05-12",
+            "time": "18:00",
+            "availableSeats": 60,
+            "price": 10.0
+          }
+        ]
+      },
+      {
+        "id": "mv003",
+        "title": "Galactic Wars: The New Age",
+        "genre": "Sci-Fi",
+        "duration": 145,
+        "language": "English",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s",
+        "showtimes": [
+          {
+            "showId": "mv003_show_1",
+            "cinema": "Nova Cineplex",
+            "date": "2025-05-14",
+            "time": "20:00",
+            "availableSeats": 50,
+            "price": 15.0
+          }
+        ]
+      },
+      {
+        "id": "mv004",
+        "title": "Haunted Mansion",
+        "genre": "Horror",
+        "duration": 98,
+        "language": "English",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv004_show_1",
+            "cinema": "Nightshade Theatre",
+            "date": "2025-05-16",
+            "time": "22:00",
+            "availableSeats": 40,
+            "price": 11.0
+          }
+        ]
+      },
+      {
+        "id": "mv005",
+        "title": "The Last Samurai Spirit",
+        "genre": "Drama",
+        "duration": 130,
+        "language": "Japanese",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv005_show_1",
+            "cinema": "Sunset Screen",
+            "date": "2025-05-17",
+            "time": "20:30",
+            "availableSeats": 55,
+            "price": 14.0
+          }
+        ]
+      },
+      {
+        "id": "mv006",
+        "title": "Movie 6",
+        "genre": "Animation",
+        "duration": 109,
+        "language": "Japanese",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv006_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-07-09",
+            "time": "13:00",
+            "availableSeats": 84,
+            "price": 11.1
+          }
+        ]
+      },
+      {
+        "id": "mv007",
+        "title": "Movie 7",
+        "genre": "Romance",
+        "duration": 90,
+        "language": "German",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv007_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-07-25",
+            "time": "14:00",
+            "availableSeats": 89,
+            "price": 11.86
+          }
+        ]
+      },
+      {
+        "id": "mv008",
+        "title": "Movie 8",
+        "genre": "Comedy",
+        "duration": 150,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s",
+        "language": "Spanish",
+        "showtimes": [
+          {
+            "showId": "mv008_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-05-28",
+            "time": "11:30",
+            "availableSeats": 45,
+            "price": 16.23
+          }
+        ]
+      },
+      {
+        "id": "mv009",
+        "title": "Movie 9",
+        "genre": "Sci-Fi",
+        "duration": 124,
+        "language": "Spanish",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv009_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-05-21",
+            "time": "19:00",
+            "availableSeats": 69,
+            "price": 10.88
+          }
+        ]
+      },
+      {
+        "id": "mv010",
+        "title": "Movie 10",
+        "genre": "Action",
+        "duration": 96,
+        "language": "Spanish",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv010_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-05-30",
+            "time": "10:30",
+            "availableSeats": 62,
+            "price": 17.22
+          }
+        ]
+      },
+      {
+        "id": "mv011",
+        "title": "Movie 11",
+        "genre": "Drama",
+        "duration": 115,
+        "language": "Spanish",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv011_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-05-24",
+            "time": "21:00",
+            "availableSeats": 73,
+            "price": 12.3
+          }
+        ]
+      },
+      {
+        "id": "mv012",
+        "title": "Movie 12",
+        "genre": "Documentary",
+        "duration": 133,
+        "language": "Hindi",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv012_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-07-08",
+            "time": "15:00",
+            "availableSeats": 64,
+            "price": 8.82
+          }
+        ]
+      },
+      {
+        "id": "mv013",
+        "title": "Movie 13",
+        "genre": "Animation",
+        "duration": 131,
+        "language": "Japanese",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s",
+        "showtimes": [
+          {
+            "showId": "mv013_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-05-14",
+            "time": "18:30",
+            "availableSeats": 35,
+            "price": 8.47
+          }
+        ]
+      },
+      {
+        "id": "mv014",
+        "title": "Movie 14",
+        "genre": "Action",
+        "duration": 138,
+        "language": "English",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv014_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-07-07",
+            "time": "13:00",
+            "availableSeats": 47,
+            "price": 14.12
+          }
+        ]
+      },
+      {
+        "id": "mv015",
+        "title": "Movie 15",
+        "genre": "Comedy",
+        "duration": 117,
+        "language": "French",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv015_show_1",
+            "cinema": "Harmony Hall",
+            "date": "2025-06-19",
+            "time": "19:30",
+            "availableSeats": 52,
+            "price": 14.87
+          }
+        ]
+      },
+      {
+        "id": "mv016",
+        "title": "Movie 16",
+        "genre": "Romance",
+        "duration": 145,
+        "language": "Mandarin",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv016_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-06-09",
+            "time": "19:00",
+            "availableSeats": 53,
+            "price": 11.34
+          }
+        ]
+      },
+      {
+        "id": "mv017",
+        "title": "Movie 17",
+        "genre": "Action",
+        "duration": 101,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s",
+        "language": "Spanish",
+        "showtimes": [
+          {
+            "showId": "mv017_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-06-13",
+            "time": "15:00",
+            "availableSeats": 92,
+            "price": 9.26
+          }
+        ]
+      },
+      {
+        "id": "mv018",
+        "title": "Movie 18",
+        "genre": "Animation",
+        "duration": 118,
+        "language": "English",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv018_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-08-12",
+            "time": "17:30",
+            "availableSeats": 55,
+            "price": 9.84
+          }
+        ]
+      },
+      {
+        "id": "mv019",
+        "title": "Movie 19",
+        "genre": "Documentary",
+        "duration": 125,
+        "language": "German",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv019_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-05-16",
+            "time": "22:00",
+            "availableSeats": 42,
+            "price": 15.27
+          }
+        ]
+      },
+      {
+        "id": "mv020",
+        "title": "Movie 20",
+        "genre": "Comedy",
+        "duration": 95,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "language": "Japanese",
+        "showtimes": [
+          {
+            "showId": "mv020_show_1",
+            "cinema": "Harmony Hall",
+            "date": "2025-06-11",
+            "time": "21:30",
+            "availableSeats": 97,
+            "price": 8.54
+          }
+        ]
+      },
+      {
+        "id": "mv021",
+        "title": "Movie 21",
+        "genre": "Sci-Fi",
+        "duration": 131,
+        "language": "English",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv021_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-08-03",
+            "time": "21:30",
+            "availableSeats": 53,
+            "price": 11.49
+          }
+        ]
+      },
+      {
+        "id": "mv022",
+        "title": "Movie 22",
+        "genre": "Drama",
+        "duration": 116,
+        "language": "Mandarin",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s",
+        "showtimes": [
+          {
+            "showId": "mv022_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-07-03",
+            "time": "20:00",
+            "availableSeats": 79,
+            "price": 10.43
+          }
+        ]
+      },
+      {
+        "id": "mv023",
+        "title": "Movie 23",
+        "genre": "Comedy",
+        "duration": 148,
+        "language": "German",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJoBZVT_wZe7kO81Fx0RVLqp-IYeDSAnuPg&s",
+        "showtimes": [
+          {
+            "showId": "mv023_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-06-21",
+            "time": "18:00",
+            "availableSeats": 43,
+            "price": 10.65
+          }
+        ]
+      },
+      {
+        "id": "mv024",
+        "title": "Movie 24",
+        "genre": "Drama",
+        "duration": 121,
+        "language": "Japanese",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv024_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-08-11",
+            "time": "17:30",
+            "availableSeats": 65,
+            "price": 17.08
+          }
+        ]
+      },
+      {
+        "id": "mv025",
+        "title": "Movie 25",
+        "genre": "Comedy",
+        "duration": 106,
+        "language": "Spanish",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv025_show_1",
+            "cinema": "Downtown Theater",
+            "date": "2025-08-02",
+            "time": "11:30",
+            "availableSeats": 59,
+            "price": 12.09
+          }
+        ]
+      },
+      {
+        "id": "mv026",
+        "title": "Movie 26",
+        "genre": "Action",
+        "duration": 141,
+        "language": "French",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv026_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-05-30",
+            "time": "11:30",
+            "availableSeats": 35,
+            "price": 15.71
+          }
+        ]
+      },
+      {
+        "id": "mv027",
+        "title": "Movie 27",
+        "genre": "Documentary",
+        "duration": 104,
+        "language": "Mandarin",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJoBZVT_wZe7kO81Fx0RVLqp-IYeDSAnuPg&s",
+        "showtimes": [
+          {
+            "showId": "mv027_show_1",
+            "cinema": "Harmony Hall",
+            "date": "2025-07-05",
+            "time": "12:00",
+            "availableSeats": 94,
+            "price": 17.12
+          }
+        ]
+      },
+      {
+        "id": "mv028",
+        "title": "Movie 28",
+        "genre": "Comedy",
+        "duration": 123,
+        "language": "Mandarin",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv028_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-07-31",
+            "time": "17:00",
+            "availableSeats": 32,
+            "price": 13.08
+          }
+        ]
+      },
+      {
+        "id": "mv029",
+        "title": "Movie 29",
+        "genre": "Horror",
+        "duration": 123,
+        "language": "French",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s",
+        "showtimes": [
+          {
+            "showId": "mv029_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-07-12",
+            "time": "20:30",
+            "availableSeats": 83,
+            "price": 17.91
+          }
+        ]
+      },
+      {
+        "id": "mv030",
+        "title": "Movie 30",
+        "genre": "Animation",
+        "duration": 138,
+        "language": "Japanese",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv030_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-05-27",
+            "time": "14:30",
+            "availableSeats": 50,
+            "price": 10.88
+          }
+        ]
+      },
+      {
+        "id": "mv031",
+        "title": "Movie 31",
+        "genre": "Action",
+        "duration": 123,
+        "language": "German",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv031_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-05-23",
+            "time": "21:30",
+            "availableSeats": 34,
+            "price": 14.45
+          }
+        ]
+      },
+      {
+        "id": "mv032",
+        "title": "Movie 32",
+        "genre": "Drama",
+        "duration": 147,
+        "language": "Japanese",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv032_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-05-31",
+            "time": "12:00",
+            "availableSeats": 50,
+            "price": 16.99
+          }
+        ]
+      },
+      {
+        "id": "mv033",
+        "title": "Movie 33",
+        "genre": "Animation",
+        "duration": 125,
+        "language": "Mandarin",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv033_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-05-21",
+            "time": "19:00",
+            "availableSeats": 81,
+            "price": 13.55
+          }
+        ]
+      },
+      {
+        "id": "mv034",
+        "title": "Movie 34",
+        "genre": "Drama",
+        "duration": 101,
+        "language": "Mandarin",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJoBZVT_wZe7kO81Fx0RVLqp-IYeDSAnuPg&s",
+        "showtimes": [
+          {
+            "showId": "mv034_show_1",
+            "cinema": "Harmony Hall",
+            "date": "2025-07-26",
+            "time": "10:00",
+            "availableSeats": 75,
+            "price": 8.88
+          }
+        ]
+      },
+      {
+        "id": "mv035",
+        "title": "Movie 35",
+        "genre": "Documentary",
+        "duration": 93,
+        "language": "Hindi",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv035_show_1",
+            "cinema": "Harmony Hall",
+            "date": "2025-07-17",
+            "time": "10:00",
+            "availableSeats": 37,
+            "price": 8.64
+          }
+        ]
+      },
+      {
+        "id": "mv036",
+        "title": "Movie 36",
+        "genre": "Action",
+        "duration": 114,
+        "language": "French",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv036_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-07-02",
+            "time": "20:30",
+            "availableSeats": 48,
+            "price": 12.82
+          }
+        ]
+      },
+      {
+        "id": "mv037",
+        "title": "Movie 37",
+        "genre": "Romance",
+        "duration": 100,
+        "language": "Spanish",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv037_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-07-13",
+            "time": "21:30",
+            "availableSeats": 80,
+            "price": 12.02
+          }
+        ]
+      },
+      {
+        "id": "mv038",
+        "title": "Movie 38",
+        "genre": "Animation",
+        "duration": 102,
+        "language": "English",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv038_show_1",
+            "cinema": "Downtown Theater",
+            "date": "2025-06-01",
+            "time": "19:00",
+            "availableSeats": 70,
+            "price": 11.53
+          }
+        ]
+      },
+      {
+        "id": "mv039",
+        "title": "Movie 39",
+        "genre": "Drama",
+        "duration": 143,
+        "language": "Hindi",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s",
+        "showtimes": [
+          {
+            "showId": "mv039_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-05-29",
+            "time": "18:00",
+            "availableSeats": 31,
+            "price": 9.01
+          }
+        ]
+      },
+      {
+        "id": "mv040",
+        "title": "Movie 40",
+        "genre": "Documentary",
+        "duration": 135,
+        "language": "Hindi",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv040_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-08-03",
+            "time": "22:00",
+            "availableSeats": 72,
+            "price": 11.16
+          }
+        ]
+      },
+      {
+        "id": "mv041",
+        "title": "Movie 41",
+        "genre": "Action",
+        "duration": 148,
+        "language": "Mandarin",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv041_show_1",
+            "cinema": "Harmony Hall",
+            "date": "2025-06-02",
+            "time": "12:30",
+            "availableSeats": 84,
+            "price": 13.24
+          }
+        ]
+      },
+      {
+        "id": "mv042",
+        "title": "Movie 42",
+        "genre": "Action",
+        "duration": 131,
+        "language": "English",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv042_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-06-30",
+            "time": "11:30",
+            "availableSeats": 80,
+            "price": 17.28
+          }
+        ]
+      },
+      {
+        "id": "mv043",
+        "title": "Movie 43",
+        "genre": "Horror",
+        "duration": 124,
+        "language": "English",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv043_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-07-25",
+            "time": "17:30",
+            "availableSeats": 91,
+            "price": 14.32
+          }
+        ]
+      },
+      {
+        "id": "mv044",
+        "title": "Movie 44",
+        "genre": "Horror",
+        "duration": 94,
+        "language": "Japanese",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s",
+        "showtimes": [
+          {
+            "showId": "mv044_show_1",
+            "cinema": "Downtown Theater",
+            "date": "2025-06-04",
+            "time": "18:00",
+            "availableSeats": 50,
+            "price": 11.52
+          }
+        ]
+      },
+      {
+        "id": "mv045",
+        "title": "Movie 45",
+        "genre": "Documentary",
+        "duration": 95,
+        "language": "French",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv045_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-07-20",
+            "time": "21:30",
+            "availableSeats": 79,
+            "price": 13.88
+          }
+        ]
+      },
+      {
+        "id": "mv046",
+        "title": "Movie 46",
+        "genre": "Documentary",
+        "duration": 105,
+        "language": "Japanese",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv046_show_1",
+            "cinema": "Downtown Theater",
+            "date": "2025-08-05",
+            "time": "11:00",
+            "availableSeats": 81,
+            "price": 17.47
+          }
+        ]
+      },
+      {
+        "id": "mv047",
+        "title": "Movie 47",
+        "genre": "Animation",
+        "duration": 131,
+        "language": "French",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv047_show_1",
+            "cinema": "Harmony Hall",
+            "date": "2025-07-02",
+            "time": "14:00",
+            "availableSeats": 88,
+            "price": 11.84
+          }
+        ]
+      },
+      {
+        "id": "mv048",
+        "title": "Movie 48",
+        "genre": "Comedy",
+        "duration": 150,
+        "language": "Spanish",
+       "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv048_show_1",
+            "cinema": "Harmony Hall",
+            "date": "2025-05-31",
+            "time": "11:00",
+            "availableSeats": 60,
+            "price": 11.11
+          }
+        ]
+      },
+      {
+        "id": "mv049",
+        "title": "Movie 49",
+        "genre": "Horror",
+        "duration": 149,
+        "language": "Spanish",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s",
+        "showtimes": [
+          {
+            "showId": "mv049_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-07-29",
+            "time": "14:00",
+            "availableSeats": 93,
+            "price": 16.95
+          }
+        ]
+      },
+      {
+        "id": "mv050",
+        "title": "Movie 50",
+        "genre": "Documentary",
+        "duration": 127,
+        "language": "Hindi",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv050_show_1",
+            "cinema": "Sunset Plaza",
+            "date": "2025-07-07",
+            "time": "17:00",
+            "availableSeats": 49,
+            "price": 12.02
+          }
+        ]
+      },
+      {
+        "id": "mv051",
+        "title": "Movie 51",
+        "genre": "Documentary",
+        "duration": 138,
+        "language": "Hindi",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv051_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-06-09",
+            "time": "11:30",
+            "availableSeats": 40,
+            "price": 14.26
+          }
+        ]
+      },
+      {
+        "id": "mv052",
+        "title": "Movie 52",
+        "genre": "Horror",
+        "duration": 121,
+        "language": "French",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s",
+        "showtimes": [
+          {
+            "showId": "mv052_show_1",
+            "cinema": "Downtown Theater",
+            "date": "2025-07-12",
+            "time": "20:00",
+            "availableSeats": 40,
+            "price": 10.6
+          }
+        ]
+      },
+      {
+        "id": "mv053",
+        "title": "Movie 53",
+        "genre": "Horror",
+        "duration": 91,
+        "language": "Japanese",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s",
+        "showtimes": [
+          {
+            "showId": "mv053_show_1",
+            "cinema": "TechHub Convention Center",
+            "date": "2025-05-31",
+            "time": "18:30",
+            "availableSeats": 58,
+            "price": 11.77
+          }
+        ]
+      },
+      {
+        "id": "mv054",
+        "title": "Movie 54",
+        "genre": "Animation",
+        "duration": 120,
+        "language": "Japanese",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s",
+        "showtimes": [
+          {
+            "showId": "mv054_show_1",
+            "cinema": "Downtown Theater",
+            "date": "2025-07-10",
+            "time": "11:00",
+            "availableSeats": 95,
+            "price": 10.54
+          }
+        ]
+      },
+      {
+        "id": "mv055",
+        "title": "Movie 55",
+        "genre": "Drama",
+        "duration": 113,
+        "language": "Japanese",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg",
+        "showtimes": [
+          {
+            "showId": "mv055_show_1",
+            "cinema": "Skyview Arena",
+            "date": "2025-06-13",
+            "time": "12:30",
+            "availableSeats": 45,
+            "price": 9.89
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "id": "ev001",
+        "title": "Summer Beats Festival",
+        "category": "Music",
+        "venue": "Green Park Arena",
+        "date": "2025-06-15",
+        "time": "18:00",
+        "availableTickets": 120,
+        "price": 45.0,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev002",
+        "title": "Tech Innovators Conference",
+        "category": "Technology",
+        "venue": "Skyline Convention Center",
+        "date": "2025-07-02",
+        "time": "09:00",
+        "availableTickets": 200,
+        "price": 99.0,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev003",
+        "title": "National Theater Gala",
+        "category": "Theater",
+        "venue": "Royal Opera Hall",
+        "date": "2025-06-22",
+        "time": "20:00",
+        "availableTickets": 80,
+        "price": 60.0,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkxaQMX4NW8V5JvJ1hV1laDEmbgbPNvNEUA&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev004",
+        "title": "Global Startup Pitch Night",
+        "category": "Business",
+        "venue": "TechHub Arena",
+        "date": "2025-07-10",
+        "time": "18:00",
+        "availableTickets": 150,
+        "price": 75.0,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev005",
+        "title": "World Jazz Concert",
+        "category": "Music",
+        "venue": "Harmony Hall",
+        "date": "2025-08-03",
+        "time": "19:30",
+        "availableTickets": 100,
+        "price": 50.0,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQob6jTp0vtQwj59QPLVCFaU2O-2FXguG8ilw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev006",
+        "title": "Event 6",
+        "category": "Comedy",
+        "venue": "Downtown Theater",
+        "date": "2025-05-18",
+        "time": "12:00",
+        "availableTickets": 152,
+        "price": 21.13,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev007",
+        "title": "Event 7",
+        "category": "Theater",
+        "venue": "Skyview Arena",
+        "date": "2025-06-10",
+        "time": "22:30",
+        "availableTickets": 181,
+        "price": 93.15,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev008",
+        "title": "Event 8",
+        "category": "Comedy",
+        "venue": "Downtown Theater",
+        "date": "2025-07-13",
+        "time": "10:00",
+        "availableTickets": 283,
+        "price": 90.12,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQob6jTp0vtQwj59QPLVCFaU2O-2FXguG8ilw&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev009",
+        "title": "Event 9",
+        "category": "Literature",
+        "venue": "TechHub Convention Center",
+        "date": "2025-05-24",
+        "time": "21:00",
+        "availableTickets": 238,
+        "price": 37.8,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2WS8x2o6tcVYvm1p2hwJtS5iSp5fGGeIjA&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev010",
+        "title": "Event 10",
+        "category": "Technology",
+        "venue": "Harmony Hall",
+        "date": "2025-05-16",
+        "time": "15:30",
+        "availableTickets": 243,
+        "price": 136.67,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev011",
+        "title": "Event 11",
+        "category": "Art",
+        "venue": "Skyview Arena",
+        "date": "2025-07-14",
+        "time": "20:00",
+        "availableTickets": 237,
+        "price": 130.12,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev012",
+        "title": "Event 12",
+        "category": "Business",
+        "venue": "TechHub Convention Center",
+        "date": "2025-08-01",
+        "time": "14:30",
+        "availableTickets": 110,
+        "price": 25.72,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev013",
+        "title": "Event 13",
+        "category": "Technology",
+        "venue": "TechHub Convention Center",
+        "date": "2025-07-27",
+        "time": "11:00",
+        "availableTickets": 248,
+        "price": 91.73,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkxaQMX4NW8V5JvJ1hV1laDEmbgbPNvNEUA&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev014",
+        "title": "Event 14",
+        "category": "Comedy",
+        "venue": "Sunset Plaza",
+        "date": "2025-06-06",
+        "time": "16:00",
+        "availableTickets": 282,
+        "price": 41.12,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev015",
+        "title": "Event 15",
+        "category": "Music",
+        "venue": "Skyview Arena",
+        "date": "2025-07-31",
+        "time": "21:30",
+        "availableTickets": 85,
+        "price": 93.28,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev016",
+        "title": "Event 16",
+        "category": "Literature",
+        "venue": "Skyview Arena",
+        "date": "2025-06-21",
+        "time": "20:30",
+        "availableTickets": 119,
+        "price": 142.26,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQob6jTp0vtQwj59QPLVCFaU2O-2FXguG8ilw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev017",
+        "title": "Event 17",
+        "category": "Comedy",
+        "venue": "Downtown Theater",
+        "date": "2025-06-05",
+        "time": "11:30",
+        "availableTickets": 266,
+        "price": 41.12,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2WS8x2o6tcVYvm1p2hwJtS5iSp5fGGeIjA&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev018",
+        "title": "Event 18",
+        "category": "Theater",
+        "venue": "Sunset Plaza",
+        "date": "2025-07-19",
+        "time": "19:30",
+        "availableTickets": 97,
+        "price": 116.6,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkxaQMX4NW8V5JvJ1hV1laDEmbgbPNvNEUA&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev019",
+        "title": "Event 19",
+        "category": "Literature",
+        "venue": "TechHub Convention Center",
+        "date": "2025-08-14",
+        "time": "11:00",
+        "availableTickets": 268,
+        "price": 86.44,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev020",
+        "title": "Event 20",
+        "category": "Technology",
+        "venue": "Harmony Hall",
+        "date": "2025-05-22",
+        "time": "13:00",
+        "availableTickets": 272,
+        "price": 64.17,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev021",
+        "title": "Event 21",
+        "category": "Theater",
+        "venue": "Sunset Plaza",
+        "date": "2025-07-19",
+        "time": "19:00",
+        "availableTickets": 179,
+        "price": 52.37,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev022",
+        "title": "Event 22",
+        "category": "Technology",
+        "venue": "Skyview Arena",
+        "date": "2025-07-17",
+        "time": "15:30",
+        "availableTickets": 272,
+        "price": 59.32,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2WS8x2o6tcVYvm1p2hwJtS5iSp5fGGeIjA&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev023",
+        "title": "Event 23",
+        "category": "Music",
+        "venue": "Downtown Theater",
+        "date": "2025-08-12",
+        "time": "21:00",
+        "availableTickets": 113,
+        "price": 137.71,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQob6jTp0vtQwj59QPLVCFaU2O-2FXguG8ilw&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev024",
+        "title": "Event 24",
+        "category": "Literature",
+        "venue": "TechHub Convention Center",
+        "date": "2025-06-08",
+        "time": "16:30",
+        "availableTickets": 93,
+        "price": 21.8,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev025",
+        "title": "Event 25",
+        "category": "Comedy",
+        "venue": "Downtown Theater",
+        "date": "2025-05-19",
+        "time": "14:30",
+        "availableTickets": 125,
+        "price": 24.3,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev026",
+        "title": "Event 26",
+        "category": "Literature",
+        "venue": "Downtown Theater",
+        "date": "2025-06-07",
+        "time": "19:00",
+        "availableTickets": 59,
+        "price": 129.92,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev027",
+        "title": "Event 27",
+        "category": "Art",
+        "venue": "TechHub Convention Center",
+        "date": "2025-08-05",
+        "time": "10:30",
+        "availableTickets": 125,
+        "price": 126.28,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkxaQMX4NW8V5JvJ1hV1laDEmbgbPNvNEUA&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev028",
+        "title": "Event 28",
+        "category": "Comedy",
+        "venue": "TechHub Convention Center",
+        "date": "2025-06-28",
+        "time": "14:30",
+        "availableTickets": 171,
+        "price": 146.95,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQob6jTp0vtQwj59QPLVCFaU2O-2FXguG8ilw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev029",
+        "title": "Event 29",
+        "category": "Art",
+        "venue": "Downtown Theater",
+        "date": "2025-07-29",
+        "time": "20:30",
+        "availableTickets": 123,
+        "price": 106.56,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev030",
+        "title": "Event 30",
+        "category": "Art",
+        "venue": "Harmony Hall",
+        "date": "2025-06-12",
+        "time": "13:00",
+        "availableTickets": 94,
+        "price": 148.85,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev031",
+        "title": "Event 31",
+        "category": "Literature",
+        "venue": "TechHub Convention Center",
+        "date": "2025-07-15",
+        "time": "15:30",
+        "availableTickets": 223,
+        "price": 124.1,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev032",
+        "title": "Event 32",
+        "category": "Theater",
+        "venue": "Skyview Arena",
+        "date": "2025-06-08",
+        "time": "12:30",
+        "availableTickets": 263,
+        "price": 122.71,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkxaQMX4NW8V5JvJ1hV1laDEmbgbPNvNEUA&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev033",
+        "title": "Event 33",
+        "category": "Music",
+        "venue": "TechHub Convention Center",
+        "date": "2025-07-25",
+        "time": "13:00",
+        "availableTickets": 218,
+        "price": 78.56,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2WS8x2o6tcVYvm1p2hwJtS5iSp5fGGeIjA&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev034",
+        "title": "Event 34",
+        "category": "Business",
+        "venue": "Harmony Hall",
+        "date": "2025-06-24",
+        "time": "19:30",
+        "availableTickets": 92,
+        "price": 124.49,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev035",
+        "title": "Event 35",
+        "category": "Art",
+        "venue": "Sunset Plaza",
+        "date": "2025-05-16",
+        "time": "16:30",
+        "availableTickets": 194,
+        "price": 113.16,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev036",
+        "title": "Event 36",
+        "category": "Music",
+        "venue": "Downtown Theater",
+        "date": "2025-06-02",
+        "time": "13:30",
+        "availableTickets": 119,
+        "price": 142.4,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev037",
+        "title": "Event 37",
+        "category": "Business",
+        "venue": "Sunset Plaza",
+        "date": "2025-05-27",
+        "time": "10:30",
+        "availableTickets": 232,
+        "price": 57.76,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQob6jTp0vtQwj59QPLVCFaU2O-2FXguG8ilw&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev038",
+        "title": "Event 38",
+        "category": "Art",
+        "venue": "TechHub Convention Center",
+        "date": "2025-05-15",
+        "time": "17:30",
+        "availableTickets": 134,
+        "price": 57.45,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkxaQMX4NW8V5JvJ1hV1laDEmbgbPNvNEUA&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev039",
+        "title": "Event 39",
+        "category": "Technology",
+        "venue": "TechHub Convention Center",
+        "date": "2025-06-16",
+        "time": "14:30",
+        "availableTickets": 122,
+        "price": 71.35,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQob6jTp0vtQwj59QPLVCFaU2O-2FXguG8ilw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev040",
+        "title": "Event 40",
+        "category": "Music",
+        "venue": "TechHub Convention Center",
+        "date": "2025-06-01",
+        "time": "11:30",
+        "availableTickets": 72,
+        "price": 149.96,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev041",
+        "title": "Event 41",
+        "category": "Music",
+        "venue": "Harmony Hall",
+        "date": "2025-07-09",
+        "time": "14:30",
+        "availableTickets": 201,
+        "price": 141.73,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev042",
+        "title": "Event 42",
+        "category": "Literature",
+        "venue": "Sunset Plaza",
+        "date": "2025-07-22",
+        "time": "21:30",
+        "availableTickets": 140,
+        "price": 20.14,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev043",
+        "title": "Event 43",
+        "category": "Music",
+        "venue": "Skyview Arena",
+        "date": "2025-05-13",
+        "time": "14:30",
+        "availableTickets": 244,
+        "price": 46.41,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2WS8x2o6tcVYvm1p2hwJtS5iSp5fGGeIjA&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev044",
+        "title": "Event 44",
+        "category": "Comedy",
+        "venue": "Harmony Hall",
+        "date": "2025-07-07",
+        "time": "14:30",
+        "availableTickets": 188,
+        "price": 59.4,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkxaQMX4NW8V5JvJ1hV1laDEmbgbPNvNEUA&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev045",
+        "title": "Event 45",
+        "category": "Music",
+        "venue": "Skyview Arena",
+        "date": "2025-07-29",
+        "time": "17:00",
+        "availableTickets": 270,
+        "price": 35.63,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev046",
+        "title": "Event 46",
+        "category": "Art",
+        "venue": "Downtown Theater",
+        "date": "2025-07-06",
+        "time": "11:00",
+        "availableTickets": 64,
+        "price": 78.82,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev047",
+        "title": "Event 47",
+        "category": "Theater",
+        "venue": "Sunset Plaza",
+        "date": "2025-08-12",
+        "time": "16:00",
+        "availableTickets": 299,
+        "price": 103.45,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev048",
+        "title": "Event 48",
+        "category": "Music",
+        "venue": "Skyview Arena",
+        "date": "2025-06-09",
+        "time": "13:00",
+        "availableTickets": 65,
+        "price": 101.31,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2WS8x2o6tcVYvm1p2hwJtS5iSp5fGGeIjA&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev049",
+        "title": "Event 49",
+        "category": "Technology",
+        "venue": "Sunset Plaza",
+        "date": "2025-07-14",
+        "time": "22:30",
+        "availableTickets": 173,
+        "price": 80.85,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkxaQMX4NW8V5JvJ1hV1laDEmbgbPNvNEUA&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev050",
+        "title": "Event 50",
+        "category": "Literature",
+        "venue": "Skyview Arena",
+        "date": "2025-07-15",
+        "time": "19:30",
+        "availableTickets": 121,
+        "price": 130.87,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev051",
+        "title": "Event 51",
+        "category": "Business",
+        "venue": "Harmony Hall",
+        "date": "2025-07-02",
+        "time": "12:00",
+        "availableTickets": 298,
+        "price": 41.3,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev052",
+        "title": "Event 52",
+        "category": "Literature",
+        "venue": "TechHub Convention Center",
+        "date": "2025-07-22",
+        "time": "11:30",
+        "availableTickets": 115,
+        "price": 102.39,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s",
+        "resaleAllowed": true
+      },
+      {
+        "id": "ev053",
+        "title": "Event 53",
+        "category": "Music",
+        "venue": "Downtown Theater",
+        "date": "2025-08-05",
+        "time": "20:30",
+        "availableTickets": 108,
+        "price": 105.91,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2WS8x2o6tcVYvm1p2hwJtS5iSp5fGGeIjA&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev054",
+        "title": "Event 54",
+        "category": "Technology",
+        "venue": "Downtown Theater",
+        "date": "2025-06-22",
+        "time": "21:00",
+        "availableTickets": 78,
+        "price": 127.38,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s",
+        "resaleAllowed": false
+      },
+      {
+        "id": "ev055",
+        "title": "Event 55",
+        "category": "Comedy",
+        "venue": "Sunset Plaza",
+        "date": "2025-08-07",
+        "time": "20:30",
+        "availableTickets": 66,
+        "price": 75.93,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s",
+        "resaleAllowed": false
+      }
+    ],
+    "trending":[
+      {
+         "id": "ev055",
+        "venue": "Sunset Plaza",
+        "date": "2025-08-07",
+        "time": "20:30",
+        "availableTickets": 66,
+        "price": 75.93,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ftq77i_uaywvUW_XbtUzZgX6RZenuGZ_Nw&s"
+      },
+      {
+        "id": "ev054",
+       "category": "Technology",
+        "venue": "Downtown Theater",
+        "date": "2025-06-22",
+        "time": "21:00",
+        "availableTickets": 78,
+        "price": 127.38,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s"
+      },
+      {
+        "id": "ev052",
+        "date": "2025-07-22",
+        "time": "11:30",
+        "availableTickets": 115,
+        "price": 102.39,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s"
+      },
+      {
+        "id": "ev040",
+        "venue": "Downtown Theater",
+        "date": "2025-07-06",
+        "time": "11:00",
+        "availableTickets": 64,
+        "price": 78.82,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s"
+      },
+      { "id": "ev041",
+        "venue": "Harmony Hall",
+        "date": "2025-07-09",
+        "time": "14:30",
+        "availableTickets": 201,
+        "price": 141.73,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLig1H5cfDbpeQEeeMn1zGuHLRJZ87Y-GT2w&s"
+      },{
+        "id": "ev002",
+        "venue": "Downtown Theater",
+        "date": "2025-05-19",
+        "time": "14:30",
+        "availableTickets": 125,
+        "price": 24.3,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YlfpN7WPubo8Oz3Ok_1TzpjTBoM81psMEg&s"
+      },
+      {
+        "id": "mv035",
+        "title": "Movie 35",
+        "genre": "Documentary",
+        "duration": 93,
+        "language": "Hindi",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg"
+      },
+      {
+        "id": "mv036",
+        "title": "Movie 36",
+        "genre": "Action",
+        "duration": 114,
+        "language": "French",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s"
+      },
+      {
+        "id": "mv037",
+        "title": "Movie 37",
+        "genre": "Romance",
+        "duration": 100,
+        "language": "Spanish",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWtwLRAr2zDVmSfVwrM-bWejv05QoA34adw&s"
+      },
+      {
+        "id": "mv038",
+        "title": "Movie 38",
+        "genre": "Animation",
+        "duration": 102,
+        "language": "English",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnzHh7MVc7MhUmJtLrextX4K8SiYS1v5KvA&s"
+      },
+      {
+        "id": "mv039",
+        "title": "Movie 39",
+        "genre": "Drama",
+        "duration": 143,
+        "language": "Hindi",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01CyDSGnkCKigxQKIcGycJQwSW8MEuKgIkw&s"
+      },
+      {
+        "id": "mv040",
+        "title": "Movie 40",
+        "genre": "Documentary",
+        "duration": 135,
+        "language": "Hindi",
+        "image":"https://static.vecteezy.com/system/resources/previews/011/860/693/non_2x/its-movie-time-vector.jpg"
+
+      },
+      {
+        "id": "mv041",
+        "title": "Movie 41",
+        "genre": "Action",
+        "duration": 148,
+        "language": "Mandarin",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqq3U4LIv85Xb1nFpRPt8kxrvBCZ60xDpECg&s"
+        
+      }
+    ],
+    "users": [
+      {
+        "id": "usr1001",
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "purchasedTickets": [
+          "mv001_show_1_seat_A10",
+          "ev001_tix_001"
+        ]
+      },
+      {
+        "id": "usr1002",
+        "name": "Brian Lee",
+        "email": "brian.lee@example.com",
+        "purchasedTickets": [
+          "mv002_show_1_seat_B3",
+          "ev002_tix_004"
+        ]
+      },
+      {
+        "id": "usr1003",
+        "name": "Cynthia Gomez",
+        "email": "cynthia.g@example.com",
+        "purchasedTickets": [
+          "mv003_show_1_seat_D5",
+          "ev003_tix_012"
+        ]
+      },
+      {
+        "id": "usr1004",
+        "name": "David Park",
+        "email": "david.park@example.com",
+        "purchasedTickets": [
+          "mv004_show_1_seat_C7",
+          "ev004_tix_023"
+        ]
+      },
+      {
+        "id": "usr1005",
+        "name": "Emily Rivera",
+        "email": "emily.r@example.com",
+        "purchasedTickets": [
+          "mv005_show_1_seat_E2",
+          "ev005_tix_014"
+        ]
+      }
+    ],
+    "tickets": [
+      {
+        "ticketId": "mv001_show_1_seat_A10",
+        "type": "Movie",
+        "showId": "mv001_show_1",
+        "seat": "A10",
+        "price": 12.5,
+        "qrCode": "QR123456A10",
+        "image":"https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_640.jpg",
+        "resaleAllowed": true
+      },
+      {
+        "ticketId": "mv002_show_1_seat_B3",
+        "type": "Movie",
+        "showId": "mv002_show_1",
+        "seat": "B3",
+        "price": 10.0,
+        "qrCode": "QR789456B3",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAc55TGWqEA4LsRUJrk43XSVm9UuotBo1omw&s",
+        "resaleAllowed": false
+      },
+      {
+        "ticketId": "mv003_show_1_seat_D5",
+        "type": "Movie",
+        "showId": "mv003_show_1",
+        "seat": "D5",
+        "price": 15.0,
+        "qrCode": "QRGALACTIC005",
+        "image":"https://www.shutterstock.com/image-photo/online-event-entertainment-concept-background-260nw-1731583732.jpg",
+        "resaleAllowed": true
+      },
+      {
+        "ticketId": "ev001_tix_001",
+        "type": "Event",
+        "eventId": "ev001",
+        "section": "General Admission",
+        "price": 45.0,
+        "qriCode": "QREVENT001A",
+        "image":"https://images.shiksha.com/mediadata/images/articles/1583747992phpzaxKKK.jpeg",
+        "resaleAllowed": true
+      },
+      {
+        "ticketId": "ev002_tix_004",
+        "type": "Event",
+        "eventId": "ev002",
+        "section": "VIP",
+        "price": 99.0,
+        "qrCode": "QREVENT002VIP",
+        "image":"https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV2ZW50fGVufDB8fDB8fHww",
+        "resaleAllowed": false
+      },
+      {
+        "ticketId": "ev003_tix_012",
+        "type": "Event",
+        "eventId": "ev003",
+        "section": "Balcony",
+        "price": 60.0,
+        "qrCode": "QREVENT003B12",
+        "image":"https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_640.jpg",
+        "resaleAllowed": true
+      },
+      {
+        "ticketId": "mv004_show_1_seat_C7",
+        "type": "Movie",
+        "showId": "mv004_show_1",
+        "seat": "C7",
+        "price": 11.0,
+        "qrCode": "QRHAUNTEDC7",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAc55TGWqEA4LsRUJrk43XSVm9UuotBo1omw&s",
+        "resaleAllowed": true
+      },
+      {
+        "ticketId": "mv005_show_1_seat_E2",
+        "type": "Movie",
+        "showId": "mv005_show_1",
+        "seat": "E2",
+        "price": 14.0,
+        "qrCode": "QRSAMURAIE2",
+        "image":"https://www.shutterstock.com/image-photo/online-event-entertainment-concept-background-260nw-1731583732.jpg",
+        "resaleAllowed": true
+      },
+      {
+        "ticketId": "ev004_tix_023",
+        "type": "Event",
+        "eventId": "ev004",
+        "section": "General",
+        "price": 75.0,
+        "qrCode": "QREVENT004G23",
+        "image":"https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV2ZW50fGVufDB8fDB8fHww",
+        "resaleAllowed": false
+      },
+      {
+        "ticketId": "ev005_tix_014",
+        "type": "Event",
+        "eventId": "ev005",
+        "section": "Front Row",
+        "price": 50.0,
+        "qrCode": "QREVENT005F14",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAc55TGWqEA4LsRUJrk43XSVm9UuotBo1omw&s",
+        "resaleAllowed": true
+      }
+    ],
+    "transactions": [
+      {
+        "transactionId": "txn9001",
+        "userId": "usr1001",
+        "ticketId": "mv001_show_1_seat_A10",
+        "date": "2025-05-07",
+        "amount": 12.5,
+        "paymentStatus": "Success",
+        "paymentMethod": "Credit Card"
+      },
+      {
+        "transactionId": "txn9002",
+        "userId": "usr1001",
+        "ticketId": "ev001_tix_001",
+        "date": "2025-05-08",
+        "amount": 45.0,
+        "paymentStatus": "Success",
+        "paymentMethod": "PayPal"
+      },
+      {
+        "transactionId": "txn9003",
+        "userId": "usr1002",
+        "ticketId": "mv002_show_1_seat_B3",
+        "date": "2025-05-09",
+        "amount": 10.0,
+        "paymentStatus": "Success",
+        "paymentMethod": "Credit Card"
+      },
+      {
+        "transactionId": "txn9004",
+        "userId": "usr1002",
+        "ticketId": "ev002_tix_004",
+        "date": "2025-05-09",
+        "amount": 99.0,
+        "paymentStatus": "Success",
+        "paymentMethod": "Debit Card"
+      },
+      {
+        "transactionId": "txn9005",
+        "userId": "usr1003",
+        "ticketId": "mv003_show_1_seat_D5",
+        "date": "2025-05-10",
+        "amount": 15.0,
+        "paymentStatus": "Success",
+        "paymentMethod": "Apple Pay"
+      },
+      {
+        "transactionId": "txn9006",
+        "userId": "usr1003",
+        "ticketId": "ev003_tix_012",
+        "date": "2025-05-10",
+        "amount": 60.0,
+        "paymentStatus": "Success",
+        "paymentMethod": "Google Pay"
+      },
+      {
+        "transactionId": "txn9007",
+        "userId": "usr1004",
+        "ticketId": "mv004_show_1_seat_C7",
+        "date": "2025-05-11",
+        "amount": 11.0,
+        "paymentStatus": "Success",
+        "paymentMethod": "Credit Card"
+      },
+      {
+        "transactionId": "txn9008",
+        "userId": "usr1004",
+        "ticketId": "ev004_tix_023",
+        "date": "2025-05-12",
+        "amount": 75.0,
+        "paymentStatus": "Success",
+        "paymentMethod": "PayPal"
+      },
+      {
+        "transactionId": "txn9009",
+        "userId": "usr1005",
+        "ticketId": "mv005_show_1_seat_E2",
+        "date": "2025-05-13",
+        "amount": 14.0,
+        "paymentStatus": "Success",
+        "paymentMethod": "Google Pay"
+      },
+      {
+        "transactionId": "txn9010",
+        "userId": "usr1005",
+        "ticketId": "ev005_tix_014",
+        "date": "2025-05-13",
+        "amount": 50.0,
+        "paymentStatus": "Success",
+        "paymentMethod": "Credit Card"
+      }
+    ]
+  }
