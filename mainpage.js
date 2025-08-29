@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
@@ -741,7 +741,7 @@ window.addEventListener('offline', () => {
   showError('No internet connection. Some features may not work.');
 });
 
-=======
+
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
@@ -1479,5 +1479,4 @@ window.addEventListener('offline', () => {
   showError('No internet connection. Some features may not work.');
 });
 
->>>>>>> 8e281e7 (Initial commit: frontend static site)
 console.log('Enhanced mainpage.js loaded successfully');
